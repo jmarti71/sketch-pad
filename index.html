@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Sketch Pad</title>
+        <script src="controller.js" defer></script>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="head-div">
+            <h1>SKETCH PAD</h1>
+            <p class="choose-size">Choose sketch pad size</p>
+            <div class="sizing-btns">
+                <button class="size-btn x16">16 x 16</button>
+                <button class="size-btn x32">32 x 32</button>
+                <button class="size-btn x64">64 x 64</button>
+            </div>
+        </div> 
+        <div class="main-layout">
+            <div class="left-container">
+                <p class="left-title">Sketch Color</p>
+                <button class="color-btn" id="black"></button>
+                <button class="color-btn" id="red"></button>
+                <button class="color-btn" id="blue"></button>
+                <button class="color-btn" id="green"></button>
+            </div>
+            <div class="sketch-container"></div>
+            <div class="right-container">
+                <button class="clear-form">Reset</button>
+            </div>
+        </div>
+    </body>
+</html>
