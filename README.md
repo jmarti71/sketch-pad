@@ -1,4 +1,5 @@
 # Sketch-Pad
+check it out: https://jmarti71.github.io/sketch-pad/
 ## Overview
 Sketch Pad is an interactive webpage put together using HTML, CSS, and JavaScript. Sketch Pad allows users to create a drawing by dragging their mouse cursor over a designated sketch area. Before drawing anything, the user will need to select a size option for their sketch pad. Until this happens, the sketch area will not register any input from the user. Once a size is selected, the user may begin drawing. By default, the color of the sketch pen will be black, this can be changed by selecting one of the four color options on the left side of the sketch pad. To clear the drawing area and start over, the user simply clicks the reset button on the right side of the sketch area.
 
